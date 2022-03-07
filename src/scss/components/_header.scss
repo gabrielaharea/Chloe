@@ -1,3 +1,75 @@
 .main-header {
-  font-family: $font-family-base;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  // border-bottom: 1px solid $colorGray-100;
+  background-color: $colorWhite;
+  z-index: $zindex-sticky;
+  background-color: $colorBej-2;
+
+  .container-header {
+    display: grid;
+    grid-template-columns: max-content max-content max-content;
+    column-gap: 48px;
+    justify-content: center;
+    max-width: 1680px;
+    padding: 23px 90px;
+    margin: 0 auto;
+
+    @media (max-width: 1199px) {
+      max-width: 1024px;
+      padding: 10px 36px;
+    }
+
+    // @media (max-width: 1023px) {
+    //   grid-template-columns: max-content max-content;
+    //   justify-content: space-between;
+    //   padding: 10px 36px;
+    // }
+
+    // @media (max-width: 767px) {
+    //   padding: 10px 12px;
+    // }
+
+    .title {
+      justify-self: center;
+      width: 137px;
+      height: auto;
+
+      h2 {
+        font-family: "FreightDispProLight-Italic";
+        font-style: italic;
+        font-weight: 400;
+        text-align: center;
+        color: $TextBrawnDark;
+        margin: 0;
+        padding: 0;
+      }
+    }
+
+    nav {
+      position: relative;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      column-gap: 20px;
+      // align-self: end;
+
+      a {
+        font-family: $font-family-base;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 11px;
+        line-height: 120%;
+        letter-spacing: 0.4em;
+        text-transform: uppercase;
+        color: $TextBrawnDark;
+      }
+
+      span {
+        font-size: 12px;
+      }
+    }
+  }
 }
