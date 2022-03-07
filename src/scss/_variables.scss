@@ -1,0 +1,34 @@
+$colorBlack: #000;
+$colorWhite: #fff;
+$colorBej-1: #fffcf9;
+$colorBej-2: #f8f4f0;
+$colorBej-3: #f3eee8;
+$colorBej-4: #eae3db;
+$TextBrawn: #3c271d;
+$TextBrawnDark: #161614;
+
+/* Typography */
+$font-family-base: "Source Sans Pro", Arial, sans-serif;
+
+$font-size-base: 18px;
+$font-size-base-mobile: 16px;
+
+$font-weight-light: 300;
+$font-weight-normal: 400;
+$font-weight-medium: 500;
+$font-weight-semibold: 600;
+$font-weight-bold: 700;
+
+$line-height-base: 27px;
+$line-height-base-mobile: 24px;
+
+/* Container */
+$container-max-width: 1238px;
+$container-gap: 12px;
+$container-gap-tablet: 36px;
+$container-small-max-width: 1004px;
+
+/* Z-index */
+$zindex-sticky: 1020;
+$zindex-fixed: 1030;
+$zindex-backdrop: 1040;
