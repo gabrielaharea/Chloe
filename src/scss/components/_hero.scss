@@ -1,0 +1,92 @@
+.section-hero {
+  background-color: $colorBej-2;
+  position: relative;
+
+  .container {
+    h1 {
+      font-family: "FreightDispProLight-Italic";
+      font-weight: 300;
+      max-width: 772px;
+      text-align: center;
+      justify-self: center;
+      padding-top: 176px;
+      padding-bottom: 51px;
+    }
+
+    .hero-link {
+      display: grid;
+      grid-template-columns: auto auto auto;
+      max-width: 476px;
+      justify-self: center;
+      column-gap: 10px;
+      margin-bottom: 91px;
+
+      a {
+        font-family: "FreightDispProLight-Italic";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        text-align: center;
+        text-transform: uppercase;
+        color: $TextBrawnDark;
+      }
+
+      span {
+        font-size: 16px;
+        padding-left: 6px;
+      }
+    }
+  }
+
+  .hero-woman {
+    position: absolute;
+    left: 0;
+    bottom: 97px;
+  }
+
+  .hero-img-white {
+    position: absolute;
+    left: 42px;
+    bottom: 97px;
+  }
+
+  .hero-hand {
+    position: absolute;
+    right: 0;
+    top: 113px;
+  }
+
+  .hero-womans {
+    position: absolute;
+    right: 31px;
+    top: 71px;
+  }
+}
+
+.arrow-bottom {
+  justify-self: center;
+  width: 10px;
+  height: 40px;
+  margin-bottom: 97px;
+  background: url("/img/svg/hero-arrow.svg") center no-repeat;
+  border: none;
+  cursor: pointer;
+
+  // &:focus {
+  //   outline: none;
+  // }
+
+  // &:hover {
+  //   opacity: 1;
+  // }
+
+  // &.show-btn {
+  //   display: block;
+  // }
+
+  // @media (max-width: 1199px) {
+  //   &.show-btn {
+  //     display: none;
+  //   }
+  // }
+}
